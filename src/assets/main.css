@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+/* google font installatie */
+
+.font-serif { font-family: 'Playfair Display', serif; }
+.font-sans { font-family: 'Roboto', sans-serif; }
+
+/* Deze styling is noodzakelijk! (als je weet wat je doet, mag je die overschrijven) */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.drawer {
+  position: fixed;
+  top: 0;
+  overflow-y: auto;
+  transition: transform .2s ease-in-out;
+  background: #FFF;
+}
+
+.drawer--right {
+  right: 0;
+  bottom: 0;
+
+}
+
+/* links streepjes */
+
+.link {
+  position: relative;
+  cursor: pointer;
+  width: fit-content;
+}
+
+.link:after {
+  content: '';
+  width: 100%;
+  transform: scaleX(0) rotate(.001deg);
+  transform-origin: left center;
+  position: absolute;
+  bottom: -0.2rem;
+  left: 0;
+  height: 2px;
+  border-radius: 99px;
+  background-color: black;
+  transition: ease-in-out transform 200ms, transform-origin 0s 200ms;
+}
+
+.link:hover:after {
+      transform: scaleX(1) rotate(.001deg);
+      transform-origin: right center;
+    }
