@@ -64,7 +64,7 @@ export default {
   <div class="background first sticky"></div>
 
   <div class="section bg-white">
-    <div v-motion-fade-visible :delay="200"
+    <div 
     class="p-8 md:p-16 2xl:p-24">
     <p class="font-sans font-thin 
               text-2xl md:text-5xl 2xl:text-6xl">Hi, I'm Sterre</p>
@@ -83,32 +83,32 @@ export default {
 
   <div class="section  bg-white">
     <div class="p-8 md:p-16 2xl:p-24">
-      <p v-motion-fade-visible 
+      <p
       class="font-sans font-thin
             text-2xl md:text-5xl 2xl:text-6xl">Check out some of my projects.</p>
       <router-link to="/uv">
-        <p v-motion-fade-visible :delay="200" 
+        <p
         class="font-serif font-normal link 
               text-3xl md:text-6xl 2xl:text-8xl 
               mt-4 md:mt-8 2xl:mt-10 
               ml-10 md:ml-16 2xl:ml-40">Unedited <i>Views</i></p>
       </router-link>
       <router-link to="/tswne">
-        <p v-motion-fade-visible :delay="400"
+        <p
           class="font-serif font-normal link
                 text-3xl md:text-6xl 2xl:text-8xl 
                 mt-4 md:mt-8 2xl:mt-10 
                 ml-10 md:ml-16 2xl:ml-40"> To <i>See</i> With naked Eyes</p>
       </router-link>
       <router-link to="/dd">
-        <p v-motion-fade-visible :delay="600"
+        <p
         class="font-serif font-normal link 
                 text-3xl md:text-6xl 2xl:text-8xl 
                 mt-4 md:mt-8 2xl:mt-10 
                 ml-10 md:ml-16 2xl:ml-40">Drawing <i>Data</i></p>
       </router-link>
       <router-link to="/projects">
-        <p v-motion-fade-visible :delay="800"
+        <p
           class="font-sans font-thin link italic 
                 text-sm md:text-xl 2xl:text-3xl 
                 mt-6 md:mt-10 2xl:mt-14 
@@ -120,12 +120,12 @@ export default {
   <div class="background third sticky"></div>
 
   <div class="section bg-white">
-    <div v-motion-fade-visible :delay="200"
+    <div 
     class="max-w-screen-md
           p-8 md:p-16 2xl:p-24 ">
       <p class="font-sans font-thin 
                 text-2xl md:text-5xl 2xl:text-6xl">Get in touch with me.</p>
-      <p v-motion-fade-visible :delay="400" 
+      <p  
         class="font-serif font-normal link 
                 text-3xl md:text-6xl 2xl:text-8xl 
                 mt-4 md:mt-8 2xl:mt-10 
