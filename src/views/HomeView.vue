@@ -5,6 +5,9 @@ import Footer from "@/components/Footer.vue";
 
 <script>
 import achtergrond from '/images/achtergrond.jpg';
+import first from '/images/achtergrond.jpg';
+import second from '/images/achtergrond2.jpg';
+import third from '/images/achtergrond3.jpg';
 
 export default {
   name: "typeWiriter",
@@ -61,11 +64,10 @@ export default {
 </script>
 
 <template>
-  <div class="background first sticky"></div>
+  <div class="h-screen background first"></div>
 
   <div class="section bg-white">
-    <div 
-    class="p-8 md:p-16 2xl:p-24">
+    <div class="p-8 md:p-16 2xl:p-24">
     <p class="font-sans font-thin 
               text-2xl md:text-5xl 2xl:text-6xl">Hi, I'm Sterre</p>
     <p class="font-serif font-normal
@@ -79,9 +81,9 @@ export default {
   </div>
   </div>
 
-  <div class="background second sticky"></div>
+  <div class="h-screen background second"></div>
 
-  <div class="section  bg-white">
+  <div class="section bg-white">
     <div class="p-8 md:p-16 2xl:p-24">
       <p
       class="font-sans font-thin
@@ -117,7 +119,7 @@ export default {
     </div>
   </div>
 
-  <div class="background third sticky"></div>
+  <div class="h-screen background third"></div>
 
   <div class="section bg-white">
     <div 
@@ -246,16 +248,6 @@ export default {
 </style>
 
 <style>
-.background {
-  /* width: 100%;
-  min-height: 100vh; */
-  position: relative;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-position: center;
-  background-size: cover;
-  top: 0;
-}
 
 .first {
   background-image: url(/images/achtergrond.jpg);
@@ -265,15 +257,6 @@ export default {
 }
 .third {
   background-image: url(/images/achtergrond3.jpg);
-}
-
-.sticky {
-  width: 100vw;
-  height: 100vh;
-  position: -webkit-sticky; /* Safari */
-  position: sticky;
-  top: 0;
-  z-index: 0;
 }
 
 .section {
