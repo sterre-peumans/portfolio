@@ -127,7 +127,7 @@ export default {
                 text-2xl md:text-5xl 2xl:text-6xl">Get in touch with me.</p>
       <p  
         class="font-serif font-normal link 
-                text-3xl md:text-6xl 2xl:text-8xl 
+                text-xl md:text-3xl 2xl:text-6xl 
                 mt-4 md:mt-8 2xl:mt-10 
                 ml-10 md:ml-16 2xl:ml-40"><a href="mailto:sterre.peumans@gmail.com">sterre.peumans@gmail.com</a></p>
     </div>

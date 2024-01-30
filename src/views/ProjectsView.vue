@@ -27,28 +27,31 @@ export default {
   data() {
     return {
       projects: [
+        { id: 12, title: 'To See With Naked Eyes', status: 'show', routerLink: '/tswne', src: tswne, alt: '-', tags: ['Done', 'Visual Storytelling', 'Color', 'Adobe InDesign', 'Observing', 'Photography', 'Book Design', '1BA MIND*'] },
+        { id: 16, title: 'The Eye Of The Beholder', status: 'show', routerLink: '/teotb', src: teotb, alt: '-', tags: ['Done','Drawing', 'Observing', 'International', 'BSS'] },
+        { id: 15, title: 'Unedited Views', status: 'show', routerLink: '/uv', src: uv, alt: '-', tags: ['Done','Visual Storytelling', 'Photography', 'Travel', 'Observing', 'International', 'Personal'] },
+        { id: 21, title: 'The Twice-Burned Library', status: 'show', routerLink: '/ttbl', src: ttbl, alt: '-', tags: ['Done','2BA MIND*', 'Adobe InDesign', 'Adobe Photoshop', 'Book Design', 'Typography']},
+        { id: 4, title: 'On The Grid', status: 'show', routerLink: '/otg', src: otg, alt: '-', tags: ['Done','Adobe Photoshop', 'Organisation', 'Lasercutting', 'Observing', 'Spatial Thinking', 'Architecture', 'Vectorworks', 'Ir. Arch.'] },
+        { id: 11, title: 'Drawing Data', status: 'show', routerLink: '/dd', src: dd, alt: '-', tags: ['Done','Visual Storytelling', 'Organisation', 'Datavisualization', 'Drawing', 'Observing', 'Color', 'Infographic', '1BA MIND*'] },
+        { id: 19, title: 'Connect', status: 'show', routerLink: '/c', src: c, alt: '-', tags: ['Done','2BA MIND*', 'Adobe Illustrator', 'Datavisualization', 'Infographic', 'International', 'Lasercutting', 'Organization', 'Travel', 'UV Printing'] },
+        { id: 3, title: 'Joined', status: 'show', routerLink: '/j', src: j, alt: '-', tags: ['Done','Lasercutting', 'Observing', 'Spatial Thinking', 'Architecture', 'Teamwork', 'Vectorworks', 'Adobe Photoshop', 'Ir. Arch.'] },
+        { id: 22, title: 'Extinct Plants', status: 'show', routerLink: '/ep', src: ep, alt: '-', tags: ['Done','2BA MIND*', 'Adobe Illustrator', 'Datavisualization', 'Infographic', 'Color', 'Lasercutting', 'UV Printing'] },
+        { id: 10, title: 'Studio Phi', status: 'show', routerLink: '/sp', src: sp, alt: '-', tags: ['Done','Adobe Photoshop', 'Adobe InDesign', 'Adobe Illustrator', 'Teamwork', 'Architecture', 'Webdesign', 'Book Design', 'Work Experience', 'Work']},
+        { id: 20, title: 'Collective Data', status: 'show', routerLink: '/cd', src: cd, alt: '-', tags: ['Done','2BA MIND*', 'Datavisualization', 'Organization', 'Spatial Thinking', 'Teamwork'] },
+
+        { id: 9, title: 'Cooking Without Words', status: 'show', routerLink: '/cww', src: cww, alt: '-', tags: ['Procreate', 'Instructional Design', 'Drawing', '1BA MIND*'] },
+        { id: 8, title: 'Elektrodata Objects: Solar', status: 'show', routerLink: '/eos', src: eos, alt: '-', tags: ['Lasercutting', 'UV Printing', 'Datavisualization', 'Teamwork', '1BA MIND*'] },
+        { id: 6, title: 'TouchDesigner', status: 'show', routerLink: '/td', src: td, alt: '-', tags: ['TouchDesigner', 'SpatialComputingLab', 'Observing', 'Spatial Thinking', '1BA MIND*'] },
+        { id: 5, title: 'Collected Collections', status: 'show', routerLink: '/cc', src: cc, alt: '-', tags: ['Visual Storytelling', 'Photography', 'Adobe Photoshop', 'Organisation', '1BA MIND*'] },
+        { id: 2, title: 'Mass Connections', status: 'show', routerLink: '/mc', src: mc, alt: '-', tags: ['Milling Machine', 'Architecture', 'Spatial Thinking', 'Arch.'] },
+        { id: 14, title: 'The Cosmic Dance', status: 'show', routerLink: '/tcd', src: tcd, alt: '-', tags: ['Adobe InDesign', 'Typography', '1BA MIND*'] },
+        { id: 13, title: 'Visual Quest', status: 'show', routerLink: '/vq', src: vq, alt: '-', tags: ['Arch.', 'Drawing', 'Observing'] },
+        { id: 7, title: 'Design Fiction', status: 'edit', routerLink: '/df', src: df, alt: '-', tags: ['Design Fiction', 'Drawing', 'Brainstorm', 'Infographic', 'Visual Storytelling','1BA MIND*'] },
+
+
         { id: 1, title: 'Drawing, My Second Language', status: 'edit', routerLink: '/', src: cww, alt: '-', tags: ['Visual Storytelling', 'Drawing', 'Observing', 'Personal'] },
-        { id: 21, title: 'The Twice-Burned Library', status: 'show', routerLink: '/ttbl', src: ttbl, alt: '-', tags: ['2BA MIND*', 'Adobe InDesign', 'Adobe Photoshop', 'Book Design', 'Typography']},
-        { id: 20, title: 'Collective Data', status: 'show', routerLink: '/cd', src: cd, alt: '-', tags: ['2BA MIND*', 'Datavisualization', 'Organization', 'Spatial Thinking', 'Teamwork'] },
-        { id: 19, title: 'Connect', status: 'show', routerLink: '/c', src: c, alt: '-', tags: ['2BA MIND*', 'Adobe Illustrator', 'Datavisualization', 'Infographic', 'International', 'Lasercutting', 'Organization', 'Travel', 'UV Printing'] },
-        { id: 22, title: 'Extinct Plants', status: 'show', routerLink: '/ep', src: ep, alt: '-', tags: ['2BA MIND*', 'Adobe Illustrator', 'Datavisualization', 'Infographic', 'Color', 'Lasercutting', 'UV Printing'] },
         { id: 18, title: 'Mapping Privilege', status: 'edit', routerLink: '/', src: cww, alt: '-', tags: ['2BA MIND*'] },
         { id: 17, title: 'Artistic Project: Existenz', status: 'edit', routerLink: '/', src: cww, alt: '-', tags: ['2BA MIND*'] },
-        { id: 16, title: 'The Eye Of The Beholder', status: 'show', routerLink: '/teotb', src: teotb, alt: '-', tags: ['Drawing', 'Observing', 'International', 'BSS'] },
-        { id: 12, title: 'To See With Naked Eyes', status: 'show', routerLink: '/tswne', src: tswne, alt: '-', tags: ['Visual Storytelling', 'Color', 'Adobe InDesign', 'Observing', 'Photography', 'Book Design', '1BA MIND*'] },
-        { id: 15, title: 'Unedited Views', status: 'show', routerLink: '/uv', src: uv, alt: '-', tags: ['Visual Storytelling', 'Photography', 'Travel', 'Observing', 'International', 'Personal'] },
-        { id: 11, title: 'Drawing Data', status: 'show', routerLink: '/dd', src: dd, alt: '-', tags: ['Visual Storytelling', 'Organisation', 'Datavisualization', 'Drawing', 'Observing', 'Color', 'Infographic', '1BA MIND*'] },
-        { id: 14, title: 'The Cosmic Dance', status: 'edit', routerLink: '/tcd', src: tcd, alt: '-', tags: ['Adobe InDesign', 'Typography', '1BA MIND*'] },
-        { id: 13, title: 'Visual Quest', status: 'edit', routerLink: '/vq', src: vq, alt: '-', tags: ['Arch.', 'Drawing', 'Observing'] },
-        { id: 10, title: 'Studio Phi', status: 'show', routerLink: '/sp', src: sp, alt: '-', tags: ['Adobe Photoshop', 'Adobe InDesign', 'Adobe Illustrator', 'Teamwork', 'Architecture', 'Webdesign', 'Book Design', 'Work Experience', 'Work']},
-        { id: 9, title: 'Cooking Without Words', status: 'edit', routerLink: '/cww', src: cww, alt: '-', tags: ['Procreate', 'Instructional Design', 'Drawing', '1BA MIND*'] },
-        { id: 8, title: 'Elektrodata Objects: Solar', status: 'edit', routerLink: '/eos', src: eos, alt: '-', tags: ['Lasercutting', 'UV Printing', 'Datavisualization', 'Teamwork', '1BA MIND*'] },
-        { id: 7, title: 'Design Fiction', status: 'edit', routerLink: '/df', src: df, alt: '-', tags: ['Design Fiction', 'Drawing', 'Brainstorm', 'Infographic', 'Visual Storytelling','1BA MIND*'] },
-        { id: 6, title: 'TouchDesigner', status: 'edit', routerLink: '/td', src: td, alt: '-', tags: ['TouchDesigner', 'SpatialComputingLab', 'Observing', 'Spatial Thinking', '1BA MIND*'] },
-        { id: 5, title: 'Collected Collections', status: 'edit', routerLink: '/cc', src: cc, alt: '-', tags: ['Visual Storytelling', 'Photography', 'Adobe Photoshop', 'Organisation', '1BA MIND*'] },
-        { id: 4, title: 'On The Grid', status: 'show', routerLink: '/otg', src: otg, alt: '-', tags: ['Adobe Photoshop', 'Organisation', 'Lasercutting', 'Observing', 'Spatial Thinking', 'Architecture', 'Vectorworks', 'Ir. Arch.'] },
-        { id: 3, title: 'Joined', status: 'edit', routerLink: '/j', src: j, alt: '-', tags: ['Lasercutting', 'Observing', 'Spatial Thinking', 'Architecture', 'Teamwork', 'Vectorworks', 'Adobe Photoshop', 'Ir. Arch.'] },
-        { id: 2, title: 'Mass Connections', status: 'edit', routerLink: '/mc', src: mc, alt: '-', tags: ['Milling Machine', 'Architecture', 'Spatial Thinking', 'Arch.'] },
       ],
       currentFilter: 'all',
     };
@@ -105,6 +108,19 @@ export default {
         <p class="font-sans font-medium 
                       text-lg md:text-xl 2xl:text-2xl
                       mb-4 md:mb-6 2xl:mb-8">PROJECT FILTERS</p>
+
+        <!-- filter based on objective -->
+        <div class="flex flex-row xl:w-1/2
+                    font-sans font-light mb-4
+                    text-xs md:text-sm 2xl:text-base">
+          <p class="italic">[</p>
+          <div class="flex flex-row">
+                <p class="italic ml-4 mb-2">I'm currently working on some project pages, click here to filter those out:</p>
+                <button class="link italic ml-4 mb-2"
+                    :class="{ active: currentFilter === 'Done' }" 
+                    @click="filterProjects('Done')">Finished webpages</button>
+          </div>
+        </div>
 
         <!-- filter based on objective -->
         <div class="flex flex-row xl:w-1/2

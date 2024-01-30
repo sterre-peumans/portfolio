@@ -408,13 +408,6 @@ export default {
                 text-xs md:text-sm"> ^ Site model.</p>
     </div>
 
-
-
-
-
-
-
-
   </div> 
 
   <div class="flex justify-center">
