@@ -248,6 +248,16 @@ export default {
 </style>
 
 <style>
+.background {
+  /* width: 100%;
+  min-height: 100vh; 
+  position: relative;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;*/
+  background-position: center;
+  background-size: cover;
+  top: 0;
+}
 
 .first {
   background-image: url(/images/achtergrond.jpg);
